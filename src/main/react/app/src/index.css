@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  background: rgb(248,248,248);
+
+
+  background-size: 100%;
+
+  background: url("bg.png"), linear-gradient(90deg, rgba(248,248,248,1) 0%, rgba(240,245,245,1) 26%, rgba(244,244,244,1) 55%, rgba(248,249,249,1) 100%);
+  background-size: 100%;
+  background-blend-mode: multiply;
+}
+
+.ant-layout-header {
+  background: white !important;
+}
+.ant-menu-title-content{
+  font-weight: bold;
+  color: #4460F1;
+
+}
+
+.container{
+
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
+
+#login .ant-input-affix-wrapper-lg{
+  padding: 14px 20px;
+  border-radius: 20px !important;
+  background: #E9EFF6 !important;
+  border-color: transparent !important;
+
+
+}
+
+#login .ant-input-lg{
+  background: #E9EFF6 !important;
+}
+
+
+#login, #register{
+  margin-top: 80px
+}
+
+#register .ant-input-affix-wrapper-lg{
+  padding: 14px 20px;
+  border-radius: 20px !important;
+  background: #E9EFF6 !important;
+  border-color: transparent !important;
+
+
+}
+
+
+#register .ant-input-lg{
+  background: #E9EFF6 !important;
+}
+.login-form-forgot{
+  display: block;
+  color: #bfbfbf !important;
+  max-width: 100% !important;
+  text-align: right !important;
+
+  position: relative;
+  top: -20px;
+  left: -10px;
+
+}
+.login-form-forgot:hover{
+  text-decoration: underline;
+}
+
+
+.title{
+  margin-top: 100px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+.subtitle{
+
+  margin-top: 40px;
+  text-align: left;
+
+
+}
+
+.griadient{
+  z-index: -1;
+  position: absolute;
+  top:-200px;
+  width: 1000px;
+  height: 1000px;
+  background: rgb(210,237,243);
+  background: radial-gradient(circle, rgba(210,237,243,1) 0%, rgba(216,229,244,0.30575980392156865) 25%, rgba(255,255,255,0.20211834733893552) 100%);
+}
+
+.login-form-button{
+  height: 50px !important;
+  font-weight: bold !important;
+  width: 70% !important;
+  border-radius: 20px !important;
+  background: #4460F1 !important;
+
+  box-shadow: -70px 50px 100px 30px rgba(68,96,241,.25) !important;
+  -webkit-box-shadow: -70px 50px 100px 30px rgba(68,96,241,.25) !important;
+  -moz-box-shadow:-70px 50px 100px 30px rgba(68,96,241,.25)  !important;
+}
+
+.register-button{
+
+}
+
+.register-button .ant-menu-title-content{
+  background: white !important;
+
+  padding:8px 20px !important;
+  border-radius: 10px !important;
+
+  box-shadow: 0px 0px 10px 0px rgba(68,96,241,.2)  !important;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(68,96,241,.2) !important;
+  -moz-box-shadow: 0px 0px 10px 0px rgba(68,96,241,.2)   !important;
+
+}
+
+.flag{
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  max-height: 50%;
+}
+
+
+
+@media (max-width: 700px) {
+  .box{
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-left: 20px !important;
+  }
+}
+
+.b{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(249, 250, 254, 0.6);
+  min-height: 200px;
+
+
+  box-shadow: -70px 50px 100px 10px rgba(68,96,241,.25) !important;
+  -webkit-box-shadow:  1px 20px 50px 0px rgba(68,96,241,.1) !important;
+  -moz-box-shadow:-70px 50px 100px 30px rgba(68,96,241,.25)  !important;
+
+}
+.b p{
+  color: #4460F1 !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+.b p:hover{
+  text-decoration: underline;
+  cursor: default;
+}
+
+.b hr{
+  border: 1px solid rgba(241, 241, 241, 0.3);
+  position: relative;
+  left: -20px;
+  width: calc(100% + 40px);
+}
+
+.ant-menu-horizontal>.ant-menu-item a{
+  color: #4460F1 !important;
+}
+
+.task{
+  background-color: rgba(68,96,241,.1);
+  padding: 20px;
+  border-radius: 20px;
+  height: 200px;
+}
+
+
+.solve{
+  background-color: white;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.solve:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.points{
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 32px;
+  font-weight: bold;
+  position: relative !important;
+  top: -120px;
+  text-align: center;
+  z-index: -1;
+}
+
+.notify{
+
+}
+
+.ant-card-body{
+  padding: 0 !important;
+}
+
+.ant-card-meta{
+  padding: 24px !important;;
+}
+
+.ant-alert-info{
+  border: 0 !important;
+}
+.ant-collapse-content-box p:hover{
+  text-decoration: none !important;
+}
+.ant-collapse-content-box p{
+  font-size: 16px !important;
+}

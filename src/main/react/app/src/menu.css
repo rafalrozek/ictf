@@ -1,0 +1,22 @@
+
+.ant-menu{
+    background: transparent !important;
+}
+
+
+@media (min-width: 700px) {
+    .desktopHeader {
+        display: block !important;
+    }
+    .mobileHeader {
+        display: none !important;
+    }
+}
+@media (max-width: 700px) {
+    .desktopHeader {
+        display: none !important;
+    }
+    .mobileHeader {
+        display: block !important;
+    }
+}

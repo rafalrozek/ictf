@@ -1,7 +1,6 @@
 # ictf
-CTF platform
+CTF web platform written in Java and React
 
-Java + React web application
 
 ![image](https://user-images.githubusercontent.com/17208383/181493983-3e2ec9d4-5ff9-471a-91a0-a0274ec6e8b7.png)
 
